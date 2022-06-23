@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mix n Match!</title>
+    <link rel="icon" type="image/x-icon" href="img_colormap.gif">
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+    <div id="outer-color-square">
+        <div id="inner-color-square">
+            <div id="text-block">
+                <h1>Mix n Match!</h1>
+                <h2>Choose a color!</h2>
+                <div id="chosen-colors">
+                    <div id="outer-color-chosen">
+                        <h3>Outer Color</h3>
+                        <div class="input-form">
+                            <input id="outer-hex-code-chosen" class="input-color" placeholder="Enter a color" value="#0000ff"></input>
+                            <button class="enter-input">Go</button>
+                        </div>
+                        <button class="red-button"></button>
+                        <button class="orange-button"></button>
+                        <button class="yellow-button"></button>
+                        <button class="green-button"></button>
+                        <button class="blue-button"></button>
+                        <button class="purple-button"></button>
+                    </div>
+                    <div id="inner-color-chosen">
+                        <h3>Inner Color</h3>
+                        <div class="input-form">
+                            <input id="inner-hex-code-chosen" class="input-color" placeholder="Enter a color" value="#008000"></input>
+                            <button class="enter-input">Go</button>
+                        </div>
+                        <button class="red-button"></button>
+                        <button class="orange-button"></button>
+                        <button class="yellow-button"></button>
+                        <button class="green-button"></button>
+                        <button class="blue-button"></button>
+                        <button class="purple-button"></button>
+                    </div>
+                </div>
+                <h2>Or let the computer pick!</h2>
+                <div id="random-colors">
+                    <div id="outer-color-random">
+                        <h3>Outer Color</h3>
+                        <div class="random-code-box">
+                            <p id="outer-hex-code-random" class="random-code">Color</p>
+                        </div>
+                        <button class="random-color-button">Random</button> 
+                    </div>
+                    <div id="inner-color-random">
+                        <h3>Inner Color</h3>
+                        <div class="random-code-box">
+                            <p id="inner-hex-code-random" class="random-code">Color</p>
+                        </div>
+                        <button class="random-color-button">Random</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
